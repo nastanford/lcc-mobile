@@ -1,0 +1,145 @@
+  <!DOCTYPE HTML>
+  <html lang="en">
+  <head>
+    <title>Lighthouse Moblie Connect</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+   
+  </head>
+
+  <body>
+  <div id="eventListPage" data-role="page" data-theme="b" data-content-theme="c" data-add-back-btn="false">
+    <div data-role="content">
+      <ul id="eventList" data-role="listview" data-filter="true"></ul>
+    </div>    
+
+   <div data-role="footer" data-position="fixed">
+    <div data-role="navbar" data-theme="b">
+      <ul style="display:block; height: 60px;">
+        <li><a href="#eventListPage" data-role="button" data-theme="b" data-icon="grid">Events</a></li>
+        <li><a href="#prayerListPage" data-role="button" data-theme="b" data-icon="star">Prayers</a></li>
+        <li><a href="#noticeListPage" data-role="button" data-theme="b" data-icon="alert">Alerts</a></li>
+      </ul>
+    </div>
+  </div>
+  </div> <!-- eventListPage -->
+
+  <div id="eventDetailsPage" data-role="page" data-theme="b" data-content-theme="c"  data-add-back-btn="false">
+    <div data-role="header">
+     <a data-rel="back">Back</a><h1></h1>
+    </div>
+
+    <div data-role="content"> 
+      <br />
+      <div id="eventDetails">
+       <h3 id="eventTitle"></h3>
+       <p id="eventStartDateTime"></p>
+       <p id="eventEndDateTime"></p>
+       <p id="eventVenue"></p>
+       <p id="eventCategory"></p>
+       <p id="eventDescription"></p>
+      </div>
+
+      <ul id="actionList" data-role="listview" data-inset="true"></ul>
+
+    </div>
+
+    <div data-role="footer" data-position="fixed">
+      <div data-role="navbar" data-theme="b">
+        <ul style="display:block; height: 60px;">
+          <li><a href="#eventListPage" data-role="button" data-theme="b" data-icon="grid">Events</a></li>
+          <li><a href="#prayerListPage" data-role="button" data-theme="b" data-icon="star">Prayers</a></li>
+          <li><a href="#noticeListPage" data-role="button" data-theme="b" data-icon="alert">Alerts</a></li>
+        </ul>
+      </div>
+    </div>
+  </div> <!-- eventDetailsPage -->
+
+  <div id="prayerListPage" data-role="page" data-theme="b" data-content-theme="c" data-add-back-btn="false">
+
+    <div data-role="content">
+      <ul id="prayerList" data-role="listview" data-filter="true"></ul>
+      </div>    
+
+      <div data-role="footer" data-position="fixed">
+      <div data-role="navbar" data-theme="b">
+        <ul style="display:block; height: 60px;">
+          <li><a href="#eventListPage" data-role="button" data-theme="b" data-icon="grid">Events</a></li>
+          <li><a href="#prayerListPage" data-role="button" data-theme="b" data-icon="star">Prayers</a></li>
+          <li><a href="#noticeListPage" data-role="button" data-theme="b" data-icon="alert">Alerts</a></li>
+        </ul>
+      </div>
+    </div>
+  </div> <!-- prayerListPage -->
+
+  <div id="prayerDetailsPage" data-role="page" data-theme="b" data-content-theme="c" data-add-back-btn="false">
+
+    <div data-role="header">
+     <a data-rel="back">Back</a><h1></h1>
+    </div>
+
+      <div data-role="content"> 
+        <br />
+        <div id="prayerDetails">
+         <h3 id="prayerTitle"></h3>
+         <p id="prayerDescription"></p>
+         <p id="prayerDate"></p>
+        </div>
+
+     </div>
+
+     <div data-role="footer" data-position="fixed">
+      <div data-role="navbar" data-theme="b">
+        <ul style="display:block; height: 60px;">
+          <li><a href="#eventListPage" data-role="button" data-theme="b" data-icon="grid">Events</a></li>
+          <li><a href="#prayerListPage" data-role="button" data-theme="b" data-icon="star">Prayers</a></li>
+          <li><a href="#noticeListPage" data-role="button" data-theme="b" data-icon="alert">Alerts</a></li>
+        </ul>
+      </div>
+    </div>
+  </div><!-- prayerDetailsPage -->
+
+
+  <div id="noticeListPage" data-role="page" data-theme="b" data-content-theme="c" data-add-back-btn="false">
+
+
+    <div data-role="content">
+      <ul id="noticeList" data-role="listview" data-filter="true"></ul>
+    </div>    
+
+    <div data-role="footer" data-position="fixed">
+      <div data-role="navbar" data-theme="b">
+        <ul style="display:block; height: 60px;">
+          <li><a href="#eventListPage" data-role="button" data-theme="b" data-icon="grid">Events</a></li>
+          <li><a href="#prayerListPage" data-role="button" data-theme="b" data-icon="star">Prayers</a></li>
+          <li><a href="#noticeListPage" data-role="button" data-theme="b" data-icon="alert">Alerts</a></li>
+        </ul>
+      </div>
+    </div>
+  </div> <!-- noticeListPage -->
+
+  <div id="noticeDetailsPage" data-role="page" data-theme="b" data-content-theme="c" data-add-back-btn="false">
+      <div data-role="header">
+       <a data-rel="back">Back</a><h1></h1>
+      </div>
+      <div data-role="content"> 
+        <br />
+        <div id="noticeDetails">
+         <h3 id="noticeTitle"></h3>
+         <p id="noticeDescription"></p>
+       </div>
+
+     </div>
+
+     <div data-role="footer" data-position="fixed">
+      <div data-role="navbar" data-theme="b">
+        <ul style="display:block; height: 60px;">
+          <li><a href="#eventListPage" data-role="button" data-theme="b" data-icon="grid">Events</a></li>
+          <li><a href="#prayerListPage" data-role="button" data-theme="b" data-icon="star">Prayers</a></li>
+          <li><a href="#noticeListPage" data-role="button" data-theme="b" data-icon="alert">Alerts</a></li>
+        </ul>
+      </div>
+    </div>
+  </div><!-- noticeDetailsPage -->
+  </body>
+  </html>
